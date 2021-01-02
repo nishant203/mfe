@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import MarketingApp from './components/MarketingApp'
 export default () => {
     return <div>
-        Hi there
+        Hi there!
         <hr />
         <MarketingApp></MarketingApp>
     </div>
