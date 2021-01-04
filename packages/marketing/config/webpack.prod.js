@@ -10,7 +10,7 @@ const prodConfig = {
     },
     plugins: [
         new ModuleFederationPlugin({
-            name: 'container', 
+            name: 'marketing', 
             exposes: {
                 './MarketingApp': './src/bootstrap'
             },
